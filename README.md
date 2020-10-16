@@ -16,10 +16,12 @@ We find that some genes are highly correlated, either positive or negative, and 
 Python packages used: 
 
 #### Dimention Reduction/eature Selection
-To get the best predictor of patient outcome of a given size k from a set of genes of size n, one would have to check k choose n combinations of genes. Brute Forcing through every combination is computationally too hard, so we use different methods that are less costly. 
+To get the best predictor of patient outcome of a given size k from a set of genes of size n, one would have to check k choose n combinations of genes. Brute Forcing through every combination is computationally too hard, so we use different methods that are less costly. Algorithms that could be used: 
 
-
-
+#### Input 
+#### Functions
+#### Output
+####Tutorial
 
 
 * Item 1
