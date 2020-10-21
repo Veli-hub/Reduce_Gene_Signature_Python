@@ -21,13 +21,14 @@ To get the best predictor of patient outcome of a given size k from a set of gen
 
 #### Input 
 As input we have: 
-*patient/sample data
-*associated therapy survival data
-*initial gene signature
-*Jaccard Index threshhold
+* patient/sample data
+* associated therapy survival data
+* initial gene signature
+* Jaccard Index threshhold
 * p-Value threshhold
 * (ground truth grouping
 if wanted)
+* depending on the algorithms used and desired worlflow
 #### Functions
 #### Output
 ####Tutorial
