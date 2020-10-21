@@ -1,4 +1,4 @@
-# Reducing_A_Gene_Signature_Using_Python
+# Reducing A Gene Signature Using Python
 
 Info: During my internship at the Institute for Experimental Oncology at the Universitätsklinikum Bonn my task was to implement a way of reducing a gene signature that still has predictive power over patient outcome. There are several papers that found gene signatures that can be used to predict immunotherapy success e.g.:
 * Cancer Immunol Res July 1 2019 (7) (7) 1162-1174; DOI: 10.1158/2326-6066.CIR-18-0500: _A Gene Signature Predicting Natural Killer Cell Infiltration and Improved Survival in Melanoma Patients_
