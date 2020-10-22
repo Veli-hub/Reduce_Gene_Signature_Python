@@ -30,7 +30,9 @@ As input we have:
 if wanted)
 * depending on the algorithms used and desired worlflow
 #### Functions
+Classification, singscore, the different methods, correlation, kaplan meier log rank p value
 #### Output
+A gene signature, Kaplan Meier curve with confidence intervalls, p value, jaccard index or other metric for comparing classification, heat map correlation
 #### Tutorial
 Regarding the use of this classification we really dont want any mis classification. This might lead to wrong decision making in cancer research, even though this is not the only parameter checker for obviously. Because of that either penalize wrong classification in the extremes or use high treshhold for jaccard index atleast. /
 cross validation
