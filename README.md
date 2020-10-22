@@ -35,17 +35,9 @@ Classification, singscore, the different methods, correlation, kaplan meier log 
 A gene signature, Kaplan Meier curve with confidence intervalls, p value, jaccard index or other metric for comparing classification, heat map correlation, abs number of people in wrong groups and in right groups each individually
 #### Tutorial
 Regarding the use of this classification, to examine wether someone gets treated with immunetherapy or not, we really dont want any misclassification in some cases. This might lead to wrong decision making in cancer treatment, even though this is not the only parameter checked for obviously. Because of that either penalize wrong classification in the extremes or use high treshhold for jaccard index atleast. \
-cross validation
+The different misclassifications and their impact: 
+1. high(true) to low(classified) group: maybe leads to the decision that a patient does not receive immunotherapy and maybe cost his life, so we are going to penalize this very harsh
+1. low(true) to high(classified) group: maybe leads to the decision that a patient does receive immunotherapy even though it will probably will not work, waste of time and recources, the patient may get better results with other therapy approaches, also harsh penalty therefore
+1. medium to low or high: leads to similar probelms as above, we are unsure about the patients in the medium group, less penalty as in case 1 and 2 since it still may work 
+1. low or high to medium: this is not pnalized, because this is alread penalized just through similarity
 
-
-
-* Item 1
-* Item 2
-  * Item 2a
-  * Item 2b
-  
-1. Item 1
-1. Item 2
-1. Item 3
-   1. Item 3a
-   1. Item 3b
